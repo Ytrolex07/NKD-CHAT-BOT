@@ -11,14 +11,14 @@ import asyncio
 import time
 from datetime import datetime
 from pyrogram import enums
-API_ID = os.environ.get("API_ID", None) 
-API_HASH = os.environ.get("API_HASH", None) 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", None) 
-MONGO_URL = os.environ.get("MONGO_URL", None)
+API_ID = os.environ.get("API_ID", 19484073) 
+API_HASH = os.environ.get("API_HASH", 05774f4ec6b365cd43e6b5297e2cd274) 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", 7135104704:AAG7Luz9uVqj-oMeyouGhJRDXW3FIV7oobo) 
+MONGO_URL = os.environ.get("MONGO_URL", mongodb+srv://black786:black123@cluster0.hoxbwfe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0)
 BOT_USERNAME = os.environ.get("BOT_USERNAME","") 
-UPDATE_CHNL = os.environ.get("UPDATE_CHNL","Ak_support1")
-OWNER_USERNAME = os.environ.get("OWNER_USERNAME","Alllllllllllllllllllllll")
-SUPPORT_GRP = os.environ.get("SUPPORT_GRP","Ak_support1")
+UPDATE_CHNL = os.environ.get("UPDATE_CHNL","NKD_Korean_Drama_Hindi")
+OWNER_USERNAME = os.environ.get("OWNER_USERNAME","yt_farman")
+SUPPORT_GRP = os.environ.get("SUPPORT_GRP","NKD_Korean_group")
 BOT_NAME = os.environ.get("BOT_NAME","CHATBOT")
 START_IMG = os.environ.get("START_IMG","")
 
@@ -46,7 +46,7 @@ SOURCE_TEXT = f"""
 ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ**
 """
 SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('sᴏᴜʀᴄᴇ', callback_data='hurr')], [InlineKeyboardButton(" ꜱᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GRP}"), InlineKeyboardButton(text="ʙᴀᴄᴋ ", callback_data="HELP_BACK")]])
-SOURCE = 'https://github.com/Akash8t2/Ak-king-chat'
+SOURCE = 'https://github.com/Ytrolex07/NKD-CHAT-BOT'
 x=["❤️","🎉","✨","🪸","🎉","🎈","🎯"]
 g=choice(x)
 async def is_admins(chat_id: int):
@@ -131,11 +131,11 @@ async def restart(client, m: Message):
         accha = await m.reply_text(
                         text = f"{g}")
         await asyncio.sleep(1)
-        await accha.edit("🦋अभी यहां आएं 👉 @Dharmarashtra_Sanatan_Sanghatan और अपना दोस्त बनाएं 🙏❤️ अगर आपका कोई दोस्त है थो उसे बि आप बुलये ओर  राधे राधे बोलके सबको हमारे group मे आमंत्रित करे")
+        await accha.edit("🦋अभी यहां आएं 👉 @NKD_Korean_Drama_Hindi और अपना दोस्त बनाएं 🙏❤️ अगर आपका कोई दोस्त है थो उसे बि आप बुलये ओर  राधे राधे बोलके सबको हमारे group मे आमंत्रित करे")
         await asyncio.sleep(0.5)
-        await accha.edit("🦋अभी यहां आएं 👉 @Dharmarashtra_Sanatan_Sanghatan और अपना दोस्त बनाएं 🙏❤️ अगर आपका कोई दोस्त है थो उसे बि आप बुलये ओर  राधे राधे बोलके सबको हमारे group मे आमंत्रित करे")
+        await accha.edit("🦋अभी यहां आएं 👉 @NKD_Korean_Drama_Hindi और अपना दोस्त बनाएं 🙏❤️ अगर आपका कोई दोस्त है थो उसे बि आप बुलये ओर  राधे राधे बोलके सबको हमारे group मे आमंत्रित करे")
         await asyncio.sleep(0.5)
-        await accha.edit("🦋अभी यहां आएं 👉 @Dharmarashtra_Sanatan_Sanghatan और अपना दोस्त बनाएं 🙏❤️ अगर आपका कोई दोस्त है थो उसे बि आप बुलये ओर  राधे राधे बोलके सबको हमारे group मे आमंत्रित करे")
+        await accha.edit("🦋अभी यहां आएं 👉 @NKD_Korean_Drama_Hindi और अपना दोस्त बनाएं 🙏❤️ अगर आपका कोई दोस्त है थो उसे बि आप बुलये ओर  राधे राधे बोलके सबको हमारे group मे आमंत्रित करे")
         await asyncio.sleep(0.5)
         await accha.delete()
         umm = await m.reply_sticker(
