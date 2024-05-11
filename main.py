@@ -12,9 +12,9 @@ import time
 from datetime import datetime
 from pyrogram import enums
 API_ID = os.environ.get("API_ID", 19484073) 
-API_HASH = os.environ.get("API_HASH", 05774f4ec6b365cd43e6b5297e2cd274) 
+API_HASH = os.environ.get("API_HASH", None) 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", 7135104704:AAG7Luz9uVqj-oMeyouGhJRDXW3FIV7oobo) 
-MONGO_URL = os.environ.get("MONGO_URL", mongodb+srv://black786:black123@cluster0.hoxbwfe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0)
+MONGO_URL = os.environ.get("MONGO_URL", None)
 BOT_USERNAME = os.environ.get("BOT_USERNAME","") 
 UPDATE_CHNL = os.environ.get("UPDATE_CHNL","NKD_Korean_Drama_Hindi")
 OWNER_USERNAME = os.environ.get("OWNER_USERNAME","yt_farman")
