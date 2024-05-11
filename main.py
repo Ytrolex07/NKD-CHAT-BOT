@@ -11,9 +11,9 @@ import asyncio
 import time
 from datetime import datetime
 from pyrogram import enums
-API_ID = os.environ.get("API_ID", 19484073) 
+API_ID = os.environ.get("API_ID", None) 
 API_HASH = os.environ.get("API_HASH", None) 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", 7135104704:AAG7Luz9uVqj-oMeyouGhJRDXW3FIV7oobo) 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", None) 
 MONGO_URL = os.environ.get("MONGO_URL", None)
 BOT_USERNAME = os.environ.get("BOT_USERNAME","") 
 UPDATE_CHNL = os.environ.get("UPDATE_CHNL","NKD_Korean_Drama_Hindi")
